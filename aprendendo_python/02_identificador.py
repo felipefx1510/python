@@ -1,0 +1,11 @@
+inf = input('Digite algo: ')
+
+print('Classe da entrada:', type(inf))
+print('Entrada de número:', inf.isalnum())
+print('Entrada alphanumerica:', inf.isalpha())
+print('Entrada númerica:', inf.isnumeric())
+print('Entrada de dígito:', inf.isdigit())
+print('Entrada decimal', inf.isdecimal())
+print('Entrada é somente espaço:', inf.isspace())
+print('Entrada possui minúscula:', inf.islower())
+print('Entrada possui maiuscula:', inf.isupper())
