@@ -1,4 +1,4 @@
-nome = input('Digite seu nome: ')
+nome = str(input('Digite seu nome: ')).strip()
 
 nome = nome.split()
 
