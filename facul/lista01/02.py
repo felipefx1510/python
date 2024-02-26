@@ -1,7 +1,7 @@
-print('Seja bem-vindo ao sistema de Caixa!')
+n1 = int(input('Digite o primeiro número: '))
+n2 = int(input('Digite o segundo número: '))
 
-valor = float(input('Digite o valor do produto: '))
-
-desconto = valor - (valor*0.15)
-
-print(f'O valor do produto com 15% de desconto é R$ {desconto:.2f}, sendo R$ {valor*0.15:.2f} de desconto.')
+if n1 > n2:
+    print(f'{n1}')
+else:
+    print(f'{n2}')

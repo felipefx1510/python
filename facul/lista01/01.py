@@ -1,10 +1,8 @@
-print('Seja bem-vindo ao sistema de notas!\nVamos calcular a média!')
+n = int(input('Digite um número: '))
 
-n1 = float(input('Digite a primeira nota: '))
-n2 = float(input('Digite a segunda nota: '))
-n3 = float(input('Digite a terceira nota: '))
+identificador = n % 2
 
-media = (n1+n2+n3)/3
-
-print(f'A média das notas {n1}, {n2} e {n3} é {media:.2f}')
-
+if identificador == 0:
+    print(f'O número {n} é par.')
+else:
+    print(f'O número {n} é ímpar.')
