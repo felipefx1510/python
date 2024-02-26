@@ -1,4 +1,4 @@
-turno = str(input('Qual é o seu turno?\nM = Matutino\nV = Vespertino\nN = Noturno\n')).split()
+turno = str(input('Qual é o seu turno?\nM = Matutino\nV = Vespertino\nN = Noturno\n')).strip()
 
 if turno.upper() == 'M':
     print('Bom dia!')
